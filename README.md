@@ -8,29 +8,29 @@ The purpose of this analysis is to compare the performance of different models o
 
 This project assumes that a credit risk assessment aims to identify those people at high risk of debt, precision and recall metrics highlighted below are related to high risk on loan_status.
 
-- RandomOverSampler: This model resulted in a Balanced accuracy score of 0.6405, precision of 0.01, and recall of 0.72.
+- **RandomOverSampler:** This model resulted in a Balanced accuracy score of 0.6405, precision of 0.01, and recall of 0.72.
 
-![NaiveOversampler](resources/Results_Over.png) 
+    ![NaiveOversampler](resources/Results_Over.png) 
 
-- SMOTE: This model resulted in a Balanced accuracy score of 0.6585, precision of 0.01, and recall of 0.62.
+- **SMOTE:** This model resulted in a Balanced accuracy score of 0.6585, precision of 0.01, and recall of 0.62.
 
-![SMOTE](resources/Results_SMOTE.png) 
+    ![SMOTE](resources/Results_SMOTE.png) 
 
-- ClusterCentroids: This model resulted in a Balanced accuracy score of 0.5447, precision of 0.01, and recall of 0.69.
+- **ClusterCentroids:** This model resulted in a Balanced accuracy score of 0.5447, precision of 0.01, and recall of 0.69.
 
-![Under](resources/Results_Under.png) 
+    ![Under](resources/Results_Under.png) 
 
-- SMOTEENN: This model resulted in a Balanced accuracy score of 0.6585, precision of 0.01, and recall of 0.73.
+- **SMOTEENN:** This model resulted in a Balanced accuracy score of 0.6585, precision of 0.01, and recall of 0.73.
 
-![SMOTEENN](resources/Results_SMOTEENN.png) 
+    ![SMOTEENN](resources/Results_SMOTEENN.png) 
 
-- BalancedRandomForestClassifier: This model resulted in a Balanced accuracy score of 0.7888, precision of 0.03, and recall of 0.70.
+- **BalancedRandomForestClassifier:** This model resulted in a Balanced accuracy score of 0.7888, precision of 0.03, and recall of 0.70.
 
-![BRF](resources/Results_BRF.png) 
+    ![BRF](resources/Results_BRF.png) 
 
-- EasyEnsembleClassifier: This model resulted in a Balanced accuracy score of 0.9316, precision of 0.09, and recall of 0.92.
+- **EasyEnsembleClassifier:** This model resulted in a Balanced accuracy score of 0.9316, precision of 0.09, and recall of 0.92.
 
-![EEC](resources/Results_EEC.png) 
+    ![EEC](resources/Results_EEC.png) 
 
 ## Summary
 
