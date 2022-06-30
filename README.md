@@ -6,7 +6,7 @@ The purpose of this analysis is to compare the performance of different models o
 
 ## Results
 
-This project assumes that a credit risk assessment aims to identify those people at high risk of debt, precision and recall metrics highlighted below are related to high risk on loan_status. Also, percentages were rounded to nearest integer.
+This project assumes that a credit risk assessment aims to identify those people at high risk of debt, precision and recall metrics highlighted below are related to high risk on loan_status. Also, in this report, percentages were rounded to the nearest integer.
 
 - **RandomOverSampler:** This model successfully predicted 73 cases of high risk as well 9549 low risk. On the other hand, 28 were false negatives, and 7555 false positives. Resulting in an accuracy score of 64%, precision of 1%, and recall of 72%.
 
