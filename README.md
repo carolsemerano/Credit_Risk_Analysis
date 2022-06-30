@@ -2,7 +2,7 @@
 
 ## Overview
 
-The purpose of this analysis is to compare the performance of different models of supervised machine learning to sample and predict credit risk in an imbalanced dataset. Analyses were created in Jupyter Notebooks, using Python libraries imbalanced-learn, and scikit-learn. The machine learning models used in this project were naive random oversampling, SMOTE, cluster centroids, SMOTEEN, Balanced Random Forest, and Easy Ensemble.
+The purpose of this analysis is to compare the performance of different models of supervised machine learning to sample and predict credit risk in an imbalanced dataset. Analyses were created in Jupyter Notebooks, using Python libraries imbalanced-learn, and scikit-learn. The machine learning models used in this project were naive random oversampling, SMOTE, cluster centroids, SMOTEENN, Balanced Random Forest, and Easy Ensemble.
 
 ## Results
 
@@ -20,7 +20,7 @@ This project assumes that a credit risk assessment aims to identify those people
 
     ![Under](resources/Results_Under.png) 
 
-- **SMOTEENN:** This model successfully predicted 74 cases of high risk as well 10346 low risk. While, 27 were false negatives, and 6758 false positives. Resulting in a balanced accuracy score of 66%, precision of 1%, and recall of 73%.
+- **SMOTEENN:** This model successfully predicted 74 cases of high risk as well 10346 low risk. While, 27 were false negatives, and 6758 false positives. Resulting in a balanced accuracy score of 67%, precision of 1%, and recall of 73%.
 
     ![SMOTEENN](resources/Results_SMOTEENN.png) 
 
