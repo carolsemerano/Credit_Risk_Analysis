@@ -8,27 +8,27 @@ The purpose of this analysis is to compare the performance of different models o
 
 This project assumes that a credit risk assessment aims to identify those people at high risk of debt, precision and recall metrics highlighted below are related to high risk on loan_status.
 
-- **RandomOverSampler:** This model resulted in a Balanced accuracy score of 0.6405, precision of 0.01, and recall of 0.72.
+- **RandomOverSampler:** This model successfully predicted 73 cases of high risk as well 9549 low risk. On the other hand, 28 were false negatives, and 7555 false positives. Resulting in an accuracy score of 64%, precision of 1%, and recall of 72%.
 
     ![NaiveOversampler](resources/Results_Over.png) 
 
-- **SMOTE:** This model resulted in a Balanced accuracy score of 0.6585, precision of 0.01, and recall of 0.62.
+- **SMOTE:** This model uccessfully predicted 63 cases of high risk as well 11858 low risk. While, 38 were false negatives, and 5246 false positives. Resulting in a Balanced accuracy score of 66%, precision of 1%, and recall of 62%
 
     ![SMOTE](resources/Results_SMOTE.png) 
 
-- **ClusterCentroids:** This model resulted in a Balanced accuracy score of 0.5447, precision of 0.01, and recall of 0.69.
+- **ClusterCentroids:** This model uccessfully predicted 70 cases of high risk as well 6780 low risk. While, 31 were false negatives, and 10324 false positives. Resulting in a Balanced accuracy score of 54%, precision of 1%, and recall of 69%.
 
     ![Under](resources/Results_Under.png) 
 
-- **SMOTEENN:** This model resulted in a Balanced accuracy score of 0.6585, precision of 0.01, and recall of 0.73.
+- **SMOTEENN:** This model uccessfully predicted 74 cases of high risk as well 10346 low risk. While, 27 were false negatives, and 6758 false positives. Resulting in a Balanced accuracy score of 66%, precision of 1%, and recall of 73%.
 
     ![SMOTEENN](resources/Results_SMOTEENN.png) 
 
-- **BalancedRandomForestClassifier:** This model resulted in a Balanced accuracy score of 0.7888, precision of 0.03, and recall of 0.70.
+- **BalancedRandomForestClassifier:** This model uccessfully predicted 71 cases of high risk as well 14958 low risk. While, 30 were false negatives, and 2146 false positives. Resulting in a Balanced accuracy score of 79%, precision of 3%, and recall of 70%.
 
     ![BRF](resources/Results_BRF.png) 
 
-- **EasyEnsembleClassifier:** This model resulted in a Balanced accuracy score of 0.9316, precision of 0.09, and recall of 0.92.
+- **EasyEnsembleClassifier:** This model uccessfully predicted 93 cases of high risk as well 16119 low risk. While, 8 were false negatives, and 985 false positives. Resulting in a Balanced accuracy score of 93%, precision of 9%, and recall of 92%.
 
     ![EEC](resources/Results_EEC.png) 
 
